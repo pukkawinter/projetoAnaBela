@@ -7,6 +7,7 @@ body{
     font-family:'Kdam Thmor Pro', sans-serif;
     font-family: 'Nuosu SIL', serif;
 }
+<<<<<<< HEAD
 .conteudo_geral{
 	width: 100%;
 }
@@ -14,13 +15,32 @@ body{
     background: rgb(63,94,251);
 	background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); ;
     width:100%;
+=======
+.contenido_general{
+	width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px   
+}
+/*Contenido navegacion*/
+.navbar{
+    background: rgb(63,94,251);
+	background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); ;
+>>>>>>> f204299 (changes layout)
     height:65px;
     font-size: 20px;
     display:flex;
     justify-content:center;
     align-items: center;
+<<<<<<< HEAD
     cursor: pointer;
     letter-spacing: 2px;
+=======
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    min-width: 720px;
+    margin:0 auto;
+>>>>>>> f204299 (changes layout)
 }
 nav ul{
     color: white;
@@ -30,11 +50,22 @@ nav ul{
 nav ul li{
     margin: 20px;
     border-bottom: solid transparent 1px;
+<<<<<<< HEAD
     padding-bottom: 7px;  
+=======
+    padding-bottom: 6px;  
+>>>>>>> f204299 (changes layout)
 }
 nav ul li:hover{
     border-bottom: solid 1px;
 }
+<<<<<<< HEAD
+=======
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+>>>>>>> f204299 (changes layout)
 
 /*Aqui começamos a biografia*/
 
@@ -46,18 +77,34 @@ nav ul li:hover{
 }
 
 .foto_bio{
+<<<<<<< HEAD
     width: 45%;
     height: 45%;
+=======
+    width: 100%;
+    height: 100%;
+    min-width: 500px;
+>>>>>>> f204299 (changes layout)
     padding: 10px;
     margin:20px;
     box-shadow: 0 0 4px gray;
     border-radius: 10px;
+<<<<<<< HEAD
 }
 
 ul li a{
     text-decoration: none;
     color: white;
 }
+=======
+   
+}
+
+.contenido_texto_foto{
+    margin: 1px 0px 30px 0px;
+}
+    
+>>>>>>> f204299 (changes layout)
 h2{
     color: black;
     display: flex;
@@ -77,6 +124,22 @@ h2{
    
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width:900px){
+    .foto_bio{
+        width:600px;
+        border: 1px solid red;
+    }
+    .biografia {
+        display: none;
+
+    }
+}
+
+
+/*aqui empezamos con los trabajos de Bela*/
+>>>>>>> f204299 (changes layout)
 .box-propaganda{
     background-color:whitesmoke; 
     padding: 20px; 
@@ -91,13 +154,18 @@ h2{
     padding:6px;
 }
 
+<<<<<<< HEAD
 .box-titulo{
+=======
+.contenido_texto{
+>>>>>>> f204299 (changes layout)
     color: black;
     padding:10px; 
     letter-spacing:1px;
     line-height: 30px; 
 }
 
+<<<<<<< HEAD
 .box-pic{
     display: flex;
     justify-content:center;
@@ -108,11 +176,47 @@ h2{
     border-radius: 10px;
 }
 
+=======
+.titulo2{
+    letter-spacing:2px;
+    padding-top:20px; 
+   
+}
+
+.box-pic{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:thistle; 
+    height:450px;
+   
+}
+.box-pic>img{
+    box-shadow:0 0 4px white;
+    border-radius: 10px;
+    height: 100%;
+    min-width: 500px;
+    margin-top: 80px;
+}
+
+.foto_propagandas img{
+    border:10px solid white;
+
+}
+
+
+>>>>>>> f204299 (changes layout)
 .botonzito{
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     padding:20px;
+=======
+    padding:26px;
+    background:thistle;
+
+>>>>>>> f204299 (changes layout)
 }
 
 button{
@@ -120,14 +224,21 @@ button{
     background-color:#b66488;
     border-radius: 3px;
     border: none;
+<<<<<<< HEAD
     box-shadow: 2px 2px 2px  whitesmoke;
     font-size: 18px;
     margin-top:20px;
+=======
+    box-shadow:0 0 4px white;
+    font-size: 18px;
+    margin-top:50px;
+>>>>>>> f204299 (changes layout)
     padding:8px;
 }
 
 button:hover{
   box-shadow: 2px 2px 2px 2px whitesmoke;
+<<<<<<< HEAD
   color:white; 
   border: none;
   font-size: 22px; 
@@ -142,6 +253,19 @@ button:hover{
     letter-spacing:2px;
     padding-top:20px; 
 }
+=======
+  border: none;
+  font-size: 22px; 
+  background-color: #F04393;
+  color:white;
+  box-shadow: 0 0 4px gray;
+}
+
+
+
+
+/*Aqui empezamos con el pie*/
+>>>>>>> f204299 (changes layout)
 .box-foot {
     font-size:20px;
     letter-spacing:4px;
@@ -221,4 +345,10 @@ button:hover{
 
 .fixed:hover{
     box-shadow: 0 5 8px gray;
+<<<<<<< HEAD
 }
+=======
+}
+
+/*final del pie*/
+>>>>>>> f204299 (changes layout)
