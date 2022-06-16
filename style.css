@@ -24,8 +24,8 @@ body{
     align-items: center;
     cursor: pointer;
     letter-spacing: 2px;
-    /*min-width: 720px;*/
     margin: 0 auto;
+    min-width: 1200px;
 }
 nav ul{
     color: white;
@@ -90,7 +90,7 @@ h2{
 @media (max-width:900px){
     .foto_bio{
         width:600px;
-        border: 1px solid red;
+       
     }
     .biografia {
         display: none;
